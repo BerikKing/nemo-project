@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+:root {
+  --main-blue: #03A9F4;
+  --main-gray: #B3B3B3;
+}
+
+.fine {
+    display: flex;
+    justify-content: space-between;
+}
