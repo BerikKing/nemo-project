@@ -30,7 +30,40 @@ const Category = () => {
                     </div>
                     <div className="main_category">
                         <div className="sitebar">
-
+                            <div className="sitebar-container">
+                                <div className="sitebar-price">
+                                Цена, ₽
+                                </div>
+                                <div className="sitebar_range">
+                                    <button><span>от</span> 4990</button>
+                                    <button><span>до</span> 109990</button>
+                                </div>
+                                <div className="sitebar-range">
+                                    <input type="range" name="price" min="4990" max = "109990" />
+                                </div>
+                                <div className="ChargingConnector">
+                                    <div className="CCTitle">Разъем для зарядки</div>
+                                    <div className="CCinput">
+                                        <div className="USB">
+                                            <input type="checkbox" name="checbox"/>
+                                            <label className="label-text">microUSB</label>
+                                        </div>
+                                        <div className="USB">
+                                            <input type="checkbox" name="checbox"/>
+                                            <label className="label-text">USB-C</label>
+                                        </div>
+                                        <div className="USB">
+                                            <input type="checkbox" name="checbox"/>
+                                            <label className="label-text">USB-C</label>
+                                        </div>
+                                        <div className="USB">
+                                            <input type="checkbox" name="checbox"/>
+                                            <label className="label-text">Type-C</label>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
                         </div>
                         <div className="products"></div>
                     </div>

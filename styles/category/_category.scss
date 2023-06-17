@@ -60,10 +60,88 @@
 }
 .main_category {
     display: flex;
+    margin-top: 40px;
     .sitebar {
         width: 23%;
         height: 400px;
-        border: 1px solid #000;
+        // border: 1px solid #000;
+        &-container {
+             width: 85%;
+             margin: 0 auto;
+        }
+       &-price {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+       }
+       &_range {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        button {
+            width: 85px;
+            height: 40px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 40px;
+            color: #000000;
+            border: none;
+            background: #F2F2F2;
+            box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            span {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 40px;
+                // color: #B3B3B3;
+                color: var(--main-gray)
+            }
+        }
+       }
+       &-range {
+        margin-top: 30px;
+        width: 100%;
+        input[type="range"] {
+            width: 100%;
+        }
+       }
+       .ChargingConnector {
+        display: flex;
+        flex-direction: column;
+        .CCTitle {
+            margin-top: 39px;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 21px;
+            color: #000000;
+        }
+        .CCinput { 
+            margin-top: 14px;
+            .USB {
+                margin-bottom: 10px;
+                display: flex;
+                align-items: center;
+                input[type="checkbox"] {
+                    width: 15px;
+                    height: 15px;
+                    background: #F2F2F2;
+                    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+                    border-radius: 2px;
+                    margin-right: 10px;
+                }
+            }
+            .label-text {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                color: #000000;
+            }
+
+        }
+       }
     }
     .products {
         width: 100%;
