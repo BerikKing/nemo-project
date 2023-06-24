@@ -4,11 +4,12 @@ const ProductCard = (props) => {
 
     return (
         <>
-            <div className="product_wrapper">
-                <img src={props.photo} alt="Product Photo" />
-                <h2>{props.promo}</h2>
-                <p>{props.description}</p>
-                <p>{props.price}</p>
+            <div className="products_wrapper">
+                <img src={props.photo} alt="Product Photo" className="product_photo" />
+                <div className="product_promo-new">{props.promoNew}</div>
+                <div className="product_promo">{props.promo}</div>
+                <div className="product_descr">{props.description}</div>
+                <div className="product_price">{props.price}</div>
             </div>
         </>
     )

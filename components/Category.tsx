@@ -5,6 +5,7 @@ const products = [
     {
         id: 1,
         photo: "../images/Xiaomi13Pro.png",
+        promoNew: "Новинка",
         promo: "Акция",
         description: " Смартфон Xiaomi 13 Pro, 12+512 ГБ, Черный",
         price: "109 990 ₽" 
@@ -25,6 +26,20 @@ const products = [
     },
     {
         id: 4,
+        photo: "../images/RedmiNote11.png",
+        promo: "Акция",
+        description: "Описание продукта",
+        price: "$10" 
+    },
+    {
+        id: 5,
+        photo: "../images/Xiaomi13Pro.png",
+        promo: "Акция",
+        description: "Описание продукта",
+        price: "$10" 
+    },
+    {
+        id: 6,
         photo: "../images/RedmiNote11.png",
         promo: "Акция",
         description: "Описание продукта",

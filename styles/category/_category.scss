@@ -228,12 +228,13 @@
         height: 3000px;
         border: 1px solid #000;
         &_container {
-            display: flex;
-        
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
         }
         &_wrapper {
             display: flex;
             flex-direction: column;
+            padding-bottom: 175px;
         }
     }
 }
