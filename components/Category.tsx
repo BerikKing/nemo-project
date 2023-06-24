@@ -1,4 +1,37 @@
 import React from "react";
+import ProductCard from '../components/ProductCard';
+
+const products = [
+    {
+        id: 1,
+        photo: "../images/Xiaomi13Pro.png",
+        promo: "Акция",
+        description: " Смартфон Xiaomi 13 Pro, 12+512 ГБ, Черный",
+        price: "109 990 ₽" 
+    },
+    {
+        id: 2,
+        photo: "../images/RedmiNote11.png",
+        promo: "Акция",
+        description: "Описание продукта",
+        price: "$10" 
+    },
+    {
+        id: 3,
+        photo: "../images/Xiaomi13Pro.png",
+        promo: "Акция",
+        description: "Описание продукта",
+        price: "$10" 
+    },
+    {
+        id: 4,
+        photo: "../images/RedmiNote11.png",
+        promo: "Акция",
+        description: "Описание продукта",
+        price: "$10" 
+    },
+]
+
 
 const Category = () => {
     return (
@@ -48,19 +81,19 @@ const Category = () => {
                                     <div className="CCinput">
                                         <div className="USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">microUSB</label>
+                                            <div className="label-text">microUSB</div>
                                         </div>
                                         <div className="USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">USB-C</label>
+                                            <div className="label-text">USB-C</div>
                                         </div>
                                         <div className="USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">USB-C</label>
+                                            <div className="label-text">USB-C</div>
                                         </div>
                                         <div className="USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">Type-C</label>
+                                            <div className="label-text">Type-C</div>
                                         </div>
                                     </div>   
                                 </div>
@@ -71,19 +104,19 @@ const Category = () => {
                                     <div className="BCinput CCinput">
                                         <div className="Battery USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">5020 mA-ч</label>
+                                            <div className="label-text">5020 mA-ч</div>
                                         </div>
                                         <div className="Battery USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">4820 mA-ч</label>
+                                            <div className="label-text">4820 mA-ч</div>
                                         </div>
                                         <div className="Battery USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">4520 mA-ч</label>
+                                            <div className="label-text">4520 mA-ч</div>
                                         </div>
                                         <div className="Battery USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">4500 mA-ч</label>
+                                            <div className="label-text">4500 mA-ч</div>
                                         </div>
                                         <div className="more">Показать все</div>
                                     </div>   
@@ -95,19 +128,19 @@ const Category = () => {
                                     <div className="VCinput CCinput">
                                         <div className="Android USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">MIUI 14 на базе Android 13</label>
+                                            <div className="label-text">MIUI 14 на базе Android 13</div>
                                         </div>
                                         <div className="Android USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">MIUI 13 на базе Android 12</label>
+                                            <div className="label-text">MIUI 13 на базе Android 12</div>
                                         </div>
                                         <div className="Android USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">Android 12</label>
+                                            <div className="label-text">Android 12</div>
                                         </div>
                                         <div className="Android USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">MIUI 12.5 на базе Android 11</label>
+                                            <div className="label-text">MIUI 12.5 на базе Android 11</div>
                                         </div>
                                     </div>   
                                     <div className="more">Показать все</div>
@@ -119,19 +152,19 @@ const Category = () => {
                                     <div className="VPCinput CCinput">
                                         <div className="Processor USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">Mali-G52</label>
+                                            <div className="label-text">Mali-G52</div>
                                         </div>
                                         <div className="Processor USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">Qualcomm® FastConnect™ 7800</label>
+                                            <div className="label-text">Qualcomm® FastConnect™ 7800</div>
                                         </div>
                                         <div className="Processor USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">Qualcomm Adreno GPU</label>
+                                            <div className="label-text">Qualcomm Adreno GPU</div>
                                         </div>
                                         <div className="Processor USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">Mali-G76</label>
+                                            <div className="label-text">Mali-G76</div>
                                         </div>
                                         
                                     </div> 
@@ -145,19 +178,19 @@ const Category = () => {
                                     <div className="RAMCinput CCinput">
                                         <div className="RAMMamory USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">3 ГБ</label>
+                                            <div className="label-text">3 ГБ</div>
                                         </div>
                                         <div className="RAMMamory USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">6 ГБ</label>
+                                            <div className="label-text">6 ГБ</div>
                                         </div>
                                         <div className="RAMMamory USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">4 ГБ</label>
+                                            <div className="label-text">4 ГБ</div>
                                         </div>
                                         <div className="RAMMamory USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">2 ГБ</label>
+                                            <div className="label-text">2 ГБ</div>
                                         </div>
                                         
                                     </div> 
@@ -170,19 +203,19 @@ const Category = () => {
                                     <div className="memoryCinput CCinput">
                                         <div className="memoryType USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">64 ГБ</label>
+                                            <div className="label-text">64 ГБ</div>
                                         </div>
                                         <div className="memoryType USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">512 ГБ</label>
+                                            <div className="label-text">512 ГБ</div>
                                         </div>
                                         <div className="memoryType USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">256 ГБ</label>
+                                            <div className="label-text">256 ГБ</div>
                                         </div>
                                         <div className="memoryType USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">32 ГБ</label>
+                                            <div className="label-text">32 ГБ</div>
                                         </div>
                                         
                                     </div> 
@@ -194,19 +227,19 @@ const Category = () => {
                                     <div className="ScreenzDiagonalCinput CCinput">
                                         <div className="ScreenzDiagonalSize USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">6.36"</label>
+                                            <div className="label-text">6.36"</div>
                                         </div>
                                         <div className="ScreenzDiagonalSize USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">6.73"</label>
+                                            <div className="label-text">6.73"</div>
                                         </div>
                                         <div className="ScreenzDiagonalSize USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">6.28"</label>
+                                            <div className="label-text">6.28"</div>
                                         </div>
                                         <div className="ScreenzDiagonalSize USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">6.71"</label>
+                                            <div className="label-text">6.71"</div>
                                         </div>
                                         
                                     </div> 
@@ -218,19 +251,19 @@ const Category = () => {
                                     <div className="Front-cameraCinput CCinput">
                                         <div className="Front-cameraMP USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">13 Мп</label>
+                                            <div className="label-text">13 Мп</div>
                                         </div>
                                         <div className="Front-cameraMP USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">16 Мп</label>
+                                            <div className="label-text">16 Мп</div>
                                         </div>
                                         <div className="Front-cameraMP USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">8 Мп</label>
+                                            <div className="label-text">8 Мп</div>
                                         </div>
                                         <div className="Front-cameraMP USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">5 Мп</label>
+                                            <div className="label-text">5 Мп</div>
                                         </div>
                                         
                                     </div> 
@@ -244,19 +277,19 @@ const Category = () => {
                                     <div className="MaterialCinput CCinput">
                                         <div className="MaterialCase USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">пластик</label>
+                                            <div className="label-text">пластик</div>
                                         </div>
                                         <div className="MaterialCase USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">пластик, стекло, металл</label>
+                                            <div className="label-text">пластик, стекло, металл</div>
                                         </div>
                                         <div className="MaterialCase USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">пластик, нейлон, металл</label>
+                                            <div className="label-text">пластик, нейлон, металл</div>
                                         </div>
                                         <div className="MaterialCase USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">пластик, стекло</label>
+                                            <div className="label-text">пластик, стекло</div>
                                         </div>
                                         
                                     </div> 
@@ -270,19 +303,19 @@ const Category = () => {
                                     <div className="SIMCardCinput CCinput">
                                         <div className="SIMCardType USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">nano-SIM, гибридная</label>
+                                            <div className="label-text">nano-SIM, гибридная</div>
                                         </div>
                                         <div className="SIMCardType USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text"></label>
+                                            <div className="label-text"></div>
                                         </div>
                                         <div className="SIMCardType USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">nano-SIM</label>
+                                            <div className="label-text">nano-SIM</div>
                                         </div>
                                         <div className="SIMCardType USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">micro-SIM</label>
+                                            <div className="label-text">micro-SIM</div>
                                         </div>
                                     </div> 
                                 </div>
@@ -323,19 +356,19 @@ const Category = () => {
                                     <div className="Storeinput CCinput">
                                         <div className="Store-name USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">Xiaomi Москва ТРЦ Павелецкая Плаза</label>
+                                            <div className="label-text">Xiaomi Москва ТРЦ Павелецкая Плаза</div>
                                         </div>
                                         <div className="Store-name USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">Xiaomi Москва Авеню Юго-Западная</label>
+                                            <div className="label-text">Xiaomi Москва Авеню Юго-Западная</div>
                                         </div>
                                         <div className="Store-name USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">Xiaomi Москва Город Косино</label>
+                                            <div className="label-text">Xiaomi Москва Город Косино</div>
                                         </div>
                                         <div className="Store-name USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">Xiaomi Москва Небо</label>
+                                            <div className="label-text">Xiaomi Москва Небо</div>
                                         </div>
                                     </div> 
                                 </div>
@@ -345,7 +378,7 @@ const Category = () => {
                                     <div className="installmentPlaninput CCinput">
                                         <div className="installmentPlan-name USB">
                                             <input type="checkbox" name="checbox"/>
-                                            <label className="label-text">Да</label>
+                                            <div className="label-text">Да</div>
                                         </div>
                                     </div> 
                                 </div>
@@ -354,6 +387,18 @@ const Category = () => {
                                 <div className="sitebar_reset">Сбросить</div>
 
                             </div>
+                        </div>
+                        
+                        <div className="products">
+
+                            <div className="products_container">
+                                {products.map((product) => (
+                                    <ProductCard key = {product.id} {...product}/>
+                                
+                                ))}
+                            </div>
+
+                                
                         </div>
                         
                     </div>

@@ -227,5 +227,13 @@
         width: 100%;
         height: 3000px;
         border: 1px solid #000;
+        &_container {
+            display: flex;
+        
+        }
+        &_wrapper {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }

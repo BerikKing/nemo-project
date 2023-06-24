@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Category from '../components/Category'
+
 import Link from 'next/link'
 
 export default function Home() {
